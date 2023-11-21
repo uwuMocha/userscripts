@@ -30,6 +30,7 @@ document.body.addEventListener('keydown', (event) => {
 
   var element = document.querySelector("#forum_70 > div.pages:nth-child(32) > div.pagenums > a.next-prev.last:last-child");
   if (element) {
-      element.click();
+    document.getElementById("quickpost").value = "NOT LAST PAGE DON'T POST";
+    element.click();
   }  
 })();

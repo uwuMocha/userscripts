@@ -30,6 +30,7 @@ document.body.addEventListener('keydown', (event) => {
   var element = document.querySelector("#content > div.thin:nth-child(2) > div.pagination.pagination--bottom:nth-child(32) > a.pagination__link.pagination__link--last:last-child");
   //var element = document.getElementsByClassName('a.pagination__link.pagination__link--last');
   if (element) {
-      element.click();
-  }  
+    document.getElementById("quickpost").value = "NOT LAST PAGE DON'T POST";
+    element.click();
+  }
 })();
