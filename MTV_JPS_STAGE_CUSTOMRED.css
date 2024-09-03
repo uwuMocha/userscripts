@@ -466,7 +466,7 @@ margin-bottom: 0px;
 #header li {
  margin:0
 }
-#logo {
+/*#logo {
  box-sizing:content-box;
  width:196px;
  height:39px;
@@ -479,7 +479,7 @@ margin-bottom: 0px;
  height:100%;
  background:url(http://i.imgur.com/NCLakXi.png) center no-repeat;
  background-size:235px;
-}
+}*/
 
 #discog_table>div.box.center .brackets:after,#discog_table>div.box.center .brackets:before,#quickreplytext br:last-child {
  display:none
