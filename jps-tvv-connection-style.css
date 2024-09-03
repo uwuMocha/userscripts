@@ -179,13 +179,13 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	border-top: 0px solid black;
 }
 
-#logo {
+/*#logo {
 	width: 23%;
 	height: 75px;
 	background: url('https://i.imgur.com/XmBojUe.png') no-repeat center center;
 	position: absolute;
 	left: 0px;
-}
+}*/
 
 #logo a {
 	border: none;
